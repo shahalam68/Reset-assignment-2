@@ -106,3 +106,48 @@ body{
     width: 567px;
     height: 427px;
 }
+.euro{
+    background-color: #FFFFFF;
+}
+/* footer style start */
+.footer img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 484px;
+}
+.social{
+    display:flex;
+    text-align: center;
+    display:block;
+    margin-bottom: 20px;
+}
+.social i{
+    padding: 8px;
+    font-size: 32px;
+    background-color: #E7E7E8;
+    color: #969BAB;
+    border-radius: 50%;
+}
+footer p {
+    text-align: center;
+    font-size: 18;
+    font-weight: 400;
+    color: #000;
+}
+/* media queries */
+
+@media only screen and(max-width:688px) {
+    .main-head{
+        width:100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .header .players{
+        grid-template-columns: repeat(1 , 1fr);
+    }
+}
+
+
+
